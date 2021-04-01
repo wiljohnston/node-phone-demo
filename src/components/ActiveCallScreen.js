@@ -16,8 +16,6 @@ const ActiveCallScreen = ({ className, borderColour }) => {
 
     const splitNumber = rawNumber.split("");
 
-    console.log("splitNumber",splitNumber)
-
     if (splitNumber[0] != '+'){
       chars.push("+"); 
     }
