@@ -34,8 +34,8 @@ const App = () => {
       className={`w-screen h-screen bg-${colours[colourIndex][0]} text-${colours[colourIndex][1]} overflow-visible`}
     >
       <section className="grid">
-      <div className="grid-end-12 mt-20 flex justify-center">
-              <Button fontClass="v1" text="Phone" onClick={() => setColourIndex((colourIndex + 1 ) % colours.length)}/>
+      <div className="grid-end-12 mt-8 flex justify-center">
+              <Button fontClass="v1" text="Phone" style={{lineHeight: '80%'}} onClick={() => setColourIndex((colourIndex + 1 ) % colours.length)}/>
         </div>
         {eventJSX[currentEvent?.key] || (
             <>
