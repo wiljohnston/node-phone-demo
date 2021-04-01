@@ -62,7 +62,7 @@ const App = () => {
 
                 <li className="w-1/3 flex items-center justify-center f3">
                   <Button
-                    className="w-full h-full f4"
+                    className="w-full h-full f3"
                     onClick={() => {
                       setDial(getRandomNumber());
                     }}
@@ -83,7 +83,7 @@ const App = () => {
 
                 <li className="w-1/3 flex items-center justify-center">
                   <Button
-                    className="w-full h-full px-6 f4"
+                    className="w-full h-full px-6 f3 xs:f4"
                     onClick={() => {
                       setDial((oldNumber) => oldNumber.slice(0, -1));
                     }}

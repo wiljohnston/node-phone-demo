@@ -91,14 +91,14 @@ strong,
 //
 
 @mixin f2 {
-  @include xs {
-    font-size: 30px;
-    line-height: 32px;
-  }
-
   @include sm {
     font-size: 50px;
     line-height: 50px;
+  }
+
+  @include xs {
+    font-size: 30px;
+    line-height: 32px;
   }
 
   font-family: "Mondwest", Helvetica, Arial, sans-serif;
@@ -116,14 +116,14 @@ strong,
 //
 
 @mixin f3 {
-  @include xs {
-    font-size: 24px;
-    line-height: 24px;
-  }
-
   @include sm {
     font-size: 32px;
     line-height: 34px;
+  }
+
+  @include xs {
+    font-size: 24px;
+    line-height: 24px;
   }
 
   font-family: "Mondwest", Helvetica, Arial, sans-serif;
