@@ -35,7 +35,7 @@ const App = () => {
     >
       <section className="grid">
       <div className="grid-end-12 mt-8 xs:mt-0 flex justify-center">
-              <Button fontClass="v1" text="Phone" style={{lineHeight: '80%'}} onClick={() => setColourIndex((colourIndex + 1 ) % colours.length)}/>
+              <Button fontClass="v1" text="Phone" style={{ lineHeight: '80%' }} onClick={() => setColourIndex((colourIndex + 1 ) % colours.length)}/>
         </div>
         {eventJSX[currentEvent?.key] || (
             <>

@@ -10,6 +10,7 @@ const Button = ({
   text,
   transparent,
   fontClass,
+  style = {},
   children,
 }) => (
   <motion.div
@@ -18,6 +19,7 @@ const Button = ({
   >
     <button
       type="button"
+      style={style}
       className={`button button--${color} ${
         transparent ? `button--transparent` : ``
       } ${className} relative py-4 ${fontClass}`}
